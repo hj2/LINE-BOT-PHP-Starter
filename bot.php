@@ -23,7 +23,7 @@ if (!is_null($events['events'])) {
 			];
 */
 			$messages = [
-				'type': 'sticker",
+				  "type": "sticker",
 				  "packageId": "1",
 				  "stickerId": "1"
 				  ];
