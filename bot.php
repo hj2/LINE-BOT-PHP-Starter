@@ -16,12 +16,20 @@ if (!is_null($events['events'])) {
 			// Get replyToken
 			$replyToken = $event['replyToken'];
 
+			
 			// Build message to reply back
 			$messages = [
 				'type' => 'text',
 				'text' => 'สวัสดีครับพี่น้องชาวโลก'
 			];
-
+			//check world 
+			if($text = "ควย")
+			{
+				$messages = [
+				'type' => 'text',
+				'text' => 'กรุณาใช้คำสุภาพ ด้วยครับ'
+			];
+			}
 			/*$messages = [
 				  'type:' =>'sticker',
 				  'packageId'=> '1',
