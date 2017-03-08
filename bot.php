@@ -23,7 +23,7 @@ if (!is_null($events['events'])) {
 				'text' => 'สวัสดีครับพี่น้องชาวโลก'
 			];
 			//check world 
-			if($text = "ควย")
+			if($text = "xxx")
 			{
 				$messages = [
 				'type' => 'text',
